@@ -10,3 +10,8 @@ public class Mathematik {
     }
 
 }
+
+// Wenn nicht public, dann ist die Klasse nur für andere Klassen im gleichen package sichtbar
+class Wert {
+
+}

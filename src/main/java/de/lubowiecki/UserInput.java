@@ -24,9 +24,14 @@ public class UserInput {
             }
         }
 
+        int anzahl = 100;
+
+        for (int i = 0; i < anzahl; i++) { // Schleife
+            //...
+            System.out.println(i);
+        }
+
+
         System.out.println("PROGRAMM WIRD BEENDET");
-
     }
-
-
 }

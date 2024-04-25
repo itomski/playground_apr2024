@@ -1,10 +1,12 @@
 package de.lubowiecki.uebungen.u2;
 
+import java.util.Arrays;
+
 public class DiceCupTest {
 
     public static void main(String[] args) {
 
-        DiceCup cup = new DiceCup(20);
+        DiceCup cup = new DiceCup(6);
         //DiceCup cup = new DiceCup();
 
         int erg = cup.roll();
@@ -18,7 +20,9 @@ public class DiceCupTest {
 
         System.out.println();
 
-        cup.roll(5);
+        int[] randNumbers = cup.roll(10);
+        System.out.println(Arrays.toString(randNumbers));
 
+        cup.stats(randNumbers);
     }
 }

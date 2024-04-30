@@ -1,6 +1,8 @@
 package de.lubowiecki.oop;
 
-public class Fahrzeug {
+import java.io.Serializable;
+
+public class Fahrzeug implements Serializable { // Serializable heißt es darf von Java in Dateien geschrieben werden
 
 
     private String kennzeichen; // Standard: null

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<books>
+    <book id="1">
+        <isbn>123-456-789</isbn>
+        <title>Kochen ohne Fett</title>
+        <price>15.99</price>
+    </book>
+
+    <book id="2">
+        <isbn>123-456-890</isbn>
+        <title>Kochen mit Fett</title>
+        <price>25.99</price>
+    </book>
+</books>

@@ -30,7 +30,6 @@ public class SerialisierungTest {
         altDaten.add(new Fahrzeug(kennzeichen, klasse));
 
         writeInFile(altDaten);
-
     }
 
     static ArrayList<Fahrzeug> readFromFile() {

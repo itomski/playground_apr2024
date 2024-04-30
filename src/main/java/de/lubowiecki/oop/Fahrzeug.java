@@ -4,6 +4,28 @@ import java.io.Serializable;
 
 public class Fahrzeug implements Serializable { // Serializable heißt es darf von Java in Dateien geschrieben werden
 
+    // JSON
+    // [{
+    //       "kennzeichen": "HH:AB123",
+    //       "klasse": "Kleinwagen"
+    // },
+    // {
+    //       "kennzeichen": "HH:XY335",
+    //       "klasse": "SUV"
+    // }]
+
+    // XML
+    // <fahrzeuge>
+    //      <fahrzeug>
+    //          <kennzeichen>HH:AB123</kennzeichen>
+    //          <klasse>Kleinwagen</klasse>
+    //      </fahrzeug>
+    //      <fahrzeug>
+    //          <kennzeichen>HH:XY335</kennzeichen>
+    //          <klasse>SUV</klasse>
+    //      </fahrzeug>
+    // </fahrzeuge>
+
 
     private String kennzeichen; // Standard: null
 

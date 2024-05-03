@@ -8,7 +8,7 @@ public class DatabaseTest {
 
     public static void main(String[] args) {
 
-        insertFahrzeug("KI:BV1922", "Peugeot", "206");
+        //insertFahrzeug("KI:BV1922", "Peugeot", "206");
         showFahrzeuge();
 
     }
@@ -27,6 +27,12 @@ public class DatabaseTest {
                 System.out.println(results.getString("typ"));
                 System.out.println();
             }
+
+            /*
+            // Ressourcen werden automatisch geschlossen
+            stmt.close();
+            con.close();
+            */
         }
         catch (SQLException ex) {
             ex.printStackTrace();

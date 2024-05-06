@@ -7,7 +7,7 @@ public class VerderblichesProdukt extends Produkt {
     private LocalDate mdh;
 
     public VerderblichesProdukt(String name, String beschreibung, int anzahl, double preis, LocalDate mdh) {
-        super(name, beschreibung, anzahl, preis);
+        super(name, beschreibung, anzahl, preis); // Aufruf des Konstruktors der Elternklasse
         this.mdh = mdh;
     }
 

@@ -1,4 +1,4 @@
-package de.lubowiecki.composite;
+package de.lubowiecki.designpatterns.composite;
 
 public class CompositeTest {
 

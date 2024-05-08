@@ -1,4 +1,4 @@
-package de.lubowiecki.composite;
+package de.lubowiecki.designpatterns.composite;
 
 // abstract = Klasse kann nicht direkt instanziert werden
 // sie muss zuert abgeleitet werden
